@@ -1,0 +1,12 @@
+form{
+    background-color: seagreen !important; /*o important forçando a regra de cor do que a cor do index*/
+}
+
+#unico{
+    background-color: tan;
+}
+
+.grupo{
+    background-color: yellow;
+}
+

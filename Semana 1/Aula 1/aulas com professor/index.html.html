@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="semana 1/logo-removebg-preview.png">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome_id">Nome: </label>
+            <input type="text" name="nome" id="nome_id" placeholder="digite seu nome" required>
+            <br><br>
+
+            <label for="telefone_id">Telefone: </label>
+            <input type="text" name="telefone" id="telefone_id" placeholder="digite seu telefone" required>
+            <br><br>
+
+            <label for="email_id">Email: </label>
+            <input type="text" name="email" id="email_id" placeholder="digite seu emal" required>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Profissionais</legend>
+            <h5>Nível</h5>
+
+            <label for="junior">Júnior
+                <input type="radio" name="nivel" id="junior">
+            </label>
+            <label for="pleno">Pleno
+                <input type="radio" name="nivel" id="pleno">
+            </label>
+            <label for="senior">Senior
+                <input type="radio" name="nivel" id="senior">
+            </label>
+
+            <h5>Conhecimentos</h5>
+            <label for="js_id">Javascript
+                <input type="checkbox" name="js" id="js_id">
+            </label>
+            
+            <label for="php_id">PHP
+                <input type="checkbox" name="php" id="php_id">
+            </label>
+                
+            <label for="js_id">Python
+                <input type="checkbox" name="py" id="py_id">
+            </label>
+
+            <label for="java_id">Java
+                <input type="checkbox" name="java" id="java_id">
+            </label>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

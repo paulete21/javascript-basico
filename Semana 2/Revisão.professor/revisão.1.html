@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Java- trans.ico">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form action="#" style="background-color:chartreuse"> <!--colocando css no html-->
+        <fieldset>
+            <legend>Formulário aleatório</legend>
+        <label for="nome_id">Nome:</label><br>
+        <input type="text" id="nome_id"><br>
+        <div class="grupo">
+        <label for="">Turno</label><br>
+        <input type="radio" name="turno" id="">Manhã <br>
+        <input type="radio" name="turno" id="">Tarde <br>
+        <input type="radio" name="turno" id="">Noite <br>
+        </div>
+        <select name="name" id="">
+            <option value="Ce">Ceará</option>
+            <option value="Sp">São Paulo</option>
+            <option value="Rj">Rio de Janeiro</option>
+        </select>
+        <br>
+        <br>
+        <div class="grupo"> <!--div id:unico usa somente qnd é 1, ja o grupo qnd é mais de 1-->
+
+        <input type="checkbox" name="" id=""> Java <br>
+        <input type="checkbox" name="" id=""> Python <br>
+        <input type="checkbox" name="" id=""> PHP <br>
+        <input type="checkbox" name="" id=""> Javascript <br>
+       </div>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>

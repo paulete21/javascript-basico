@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="../../icons/Html-5.ico" type="image/x-icon">
+    <title></title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    <style>  
+        h1{
+            color:crimson !important; 
+            font-size: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+      <!--2° maneira de implementar CSS no HTML, essa de cima-->
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+
+    </nav>
+    <main> <!--1° maneira de implementar CSS no HTML-->                                        
+        <!--<h1 style="color: blue; font-size: 45px;">Aprendendo CSS</h1>-->
+       
+        <div id="esquerda">
+            <h1>Universidade do Trabalho Digital</h1>
+            <h2>Para mais detalhes acesse o <a href="#"></a></h2>
+            <img id="logo" src="logo.jpg" alt="logo da utd">   
+            <ul>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>Javascript</li>
+            
+            </ul>
+
+            <ol>
+                <li>Bootstrap</li>
+                <li>SpringBoot</li>
+                <li>MySql</li>
+                <li>Insomnia</li>
+            </ol>
+    </div>
+    <div id="direita">
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+              <label for="name_form">Nome: </label><br/>
+              <input id="name_form" type="text" required>
+              <br/>
+              <label for="idade_form">Idade: </label><br/>
+              <input id="idade_form" type="number" required>
+              <br/>
+
+              <label for="email_form">Email: </label><br/>
+              <input id="email_form" type="text" required>
+              <br/>
+
+              <label for="telefone_form">Telefone: </label><br/>
+              <input id="telefone_form" type="number" required>
+              <br/>
+               
+              <label for="estado_form">Estado: </label><br/>
+              <input id="estado_form" type="text" required>
+              <br/>
+
+              <label for="cidade_form">Cidade: </label><br/>
+              <input id="cidade_form" type="text" required>
+            <br>
+            <br>
+              <input type="submit" value="Enviar">
+        </fieldset>
+
+    </div>
+    </main>
+    <footer>
+    </footer>
+    
+</body>
+</html>
